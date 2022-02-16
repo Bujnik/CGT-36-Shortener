@@ -5,8 +5,7 @@
  URL Shortener
  
 It will be similar to Google URL Shortener (https://goo.gl), but we'll extend its functionality and make it console-based.<br>
-It will shorten not only links, but also any string. Our Shortener class will return a unique identifier for any string, and vice versa —<br>
-it will return a string based on a previously obtained identifier.<br>
+It will shorten not only links, but also any string. Our Shortener class will return a unique identifier for any string, and vice versa — it will return a string based on a previously obtained identifier.<br>
 <br>
 Two additional requirements for Shortener:<br>
 - for two identical strings, the same identifier should be returned;<br>
