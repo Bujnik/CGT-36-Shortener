@@ -1,6 +1,7 @@
 package main;
 
 import main.strategy.HashMapStorageStrategy;
+import main.strategy.OurHashMapStorageStrategy;
 import main.strategy.StorageStrategy;
 
 import java.util.Date;
@@ -10,6 +11,8 @@ import java.util.Set;
 public class Solution {
     public static void main(String[] args) {
         testStrategy(new HashMapStorageStrategy(), 10000);
+        System.out.println("-----------------------");
+        testStrategy(new OurHashMapStorageStrategy(), 10000);
     }
 
     /**
