@@ -14,4 +14,6 @@ the identifiers will be longs.<br>
 
 __________________________________________________________
 My takeaways: <br>
-
+-> Getting familiar with Strategy pattern <br>
+-> Practice with data structures (Map) <br>
+-> Writing a bit code for testing purposes
