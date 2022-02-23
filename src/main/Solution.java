@@ -1,8 +1,6 @@
 package main;
 
-import main.strategy.HashMapStorageStrategy;
-import main.strategy.OurHashMapStorageStrategy;
-import main.strategy.StorageStrategy;
+import main.strategy.*;
 
 import java.util.Date;
 import java.util.HashSet;
@@ -13,6 +11,12 @@ public class Solution {
         testStrategy(new HashMapStorageStrategy(), 10000);
         System.out.println("-----------------------");
         testStrategy(new OurHashMapStorageStrategy(), 10000);
+        System.out.println("-----------------------");
+        testStrategy(new OurHashBiMapStorageStrategy(), 10000);
+        System.out.println("-----------------------");
+        testStrategy(new HashBiMapStorageStrategy(), 10000);
+        System.out.println("-----------------------");
+        testStrategy(new DualHashBidiMapStorageStrategy(), 10000);
     }
 
     /**
