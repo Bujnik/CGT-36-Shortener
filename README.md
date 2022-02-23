@@ -16,4 +16,5 @@ __________________________________________________________
 My takeaways: <br>
 -> Getting familiar with Strategy pattern <br>
 -> Practice with data structures (Map) <br>
--> Writing a bit code for testing purposes
+-> Writing a bit code for testing purposes <br>
+-> Writing more tests using JUnit
